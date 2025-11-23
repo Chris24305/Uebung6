@@ -2,9 +2,9 @@ package h2;
 
 public class H2_main {
 	public static void main(String[] args) {
-		int[] a = { 1, 2, 3, 4 }, b = { 1, 2, 3, 5 };
+	/*	int[] a = { 1, 2, 3, 4 }, b = { 1, 2, 3, 4 };
 		boolean identical = compareArrays(a, b);
-		System.out.print(identical);
+		System.out.print(identical); */
 	}
 
 	public static boolean compareArrays(int[] A, int[] B) {

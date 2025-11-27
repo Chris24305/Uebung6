@@ -7,13 +7,13 @@ public class H2_main {
 		System.out.print(identical); */
 	}
 
-	public static boolean compareArrays(int[] A, int[] B) {
+	public static boolean compareArrays(int[] a, int[] b) {
 		boolean compareArrays = false;
-		if (A.length != B.length) {
+		if (a.length != b.length) {
 			compareArrays = false;
 		} else {
-			for (int m = 0; m < A.length; m++) {
-				if (A[m] == B[m]) {
+			for (int m = 0; m < a.length; m++) {
+				if (a[m] == b[m]) {
 					compareArrays = true;
 					continue;
 				} else {
